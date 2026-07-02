@@ -21,8 +21,8 @@ A professional desktop application designed for clinical asset management and eq
 
 ## File Structure & Topology
 
-The codebase is organized into three distinct structural modules:
-    ```text
+* The codebase is organized into three distinct structural modules:
+  ```text
     ├── database.py       # Core ORM schemas, database initialization, and raw SQL queries
     ├── ui.py             # Main GUI panels, multi-frame context forms, and event handling
     └── main.py           # Application entry point (triggers database migrations and UI mainloop)
